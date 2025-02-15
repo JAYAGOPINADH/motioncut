@@ -1,0 +1,94 @@
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    border: 1px solid black; /* Add a border around the body */
+}
+
+.header-block{
+    display: flex;
+    justify-content: center;
+    margin: 32px 0px;
+}
+
+.block{
+    /* height: 20px; */
+    width: 200px;
+    background-color: #CB6BE6;
+    border-radius: 12px;
+}
+
+.block1{
+    /* height: 20px; */
+    width: 220px;
+    background-color: #CB6BE6;
+    border-radius: 12px;
+}
+
+.paragraph-container{
+    margin: 32px 0px;
+}
+
+.paragraph-container .para-line{
+    text-align: center;
+}
+
+.text{
+    color: white;
+    text-align: center;
+    padding: 8px;
+}
+.line {
+    color: #CB6BE6; /* Set the color of the line */
+    text-align: center;
+    padding: auto;
+}
+.disc-italic{
+    color: #CB6BE6;
+}
+
+.card{
+    /* border: 1px solid black; */
+    width: 120px
+
+}
+
+.card1{
+    /* border: 1px solid black; */
+    width: 150px
+}
+
+.image{
+    height: 100px;
+    width: 100px;
+}
+
+.disc-italic{
+    font-style: italic;
+}
+
+.card-image{
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+}
+
+.card-discription{
+    padding: 8px 0px;
+    text-align: center;
+}
+
+.card-block{
+    display: inline-flex;
+    gap: 40px;
+}
+
+.mother-div{
+    margin: 64px 0px;
+    display: flex;
+    justify-content: center;
+}
